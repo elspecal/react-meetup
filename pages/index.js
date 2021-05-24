@@ -30,5 +30,6 @@ export async function getStaticProps() {
         address,
       })),
     },
+    revalidate: 60,
   };
 }
